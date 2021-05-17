@@ -41,7 +41,7 @@ const User = (props) => {
             <Router>
               <Link
                 // to={`/detail/${props.usuario.login.uuid}`}
-                // to="/detail/:uuid"
+                to="/detail/:uuid"
                 className="more-info more"
               >
                 + Info
